@@ -1,0 +1,11 @@
+pw_user:
+    resource: "@PWUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+pw_portfolio:
+    resource: "@PWPortfolioBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
